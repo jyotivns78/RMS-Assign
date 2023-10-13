@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Tiro+Devanagari+Hindi&display=swap');
+
+* {
+    font-family: DM Sans;
+}
+
+.social-part li{
+    list-style: none;
+    padding-right:20px;
+    color: #1E0E62 !important;
+}
+.social-part {
+    display: flex;
+}
+.social-part button {
+    /* background-color: #25DAC5; */
+    border: 2px #EBEAED solid;
+    border-radius: 100px;
+    padding: 2px 10px;
+    /* color: white; */
+    font-size: 14px;
+    font-family: DM Sans;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word
+}
+ul li a{
+    margin-right: 20px;
+}
+.logo {
+    width: 170px;
+    height: 40px;
+}
+
+.rich h1 {
+    color: #1E0E62;
+font-size: 58px;
+font-family: DM Sans;
+font-weight: 700;
+line-height: 70px;
+word-wrap: break-word;
+}
+
+.button_div .get_started_button {
+    color: white;
+font-size: 20px;
+font-family: DM Sans;
+font-weight: 500;
+line-height: 26px;
+word-wrap: break-word;
+background-color: #25DAC5;
+border: 1px solid #25DAC5;
+border-radius: 100px;
+}
+
+.boxes {
+    border-right: 2px rgba(21.06, 20.34, 56.79, 0.40) solid;
+}
+

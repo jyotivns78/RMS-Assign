@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+  <title>Navbar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="/css/Third.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function () {
+$('.navbar-light .dmenu').hover(function () {
+        $(this).find('.sm-menu').first().stop(true, true).slideDown(150);
+    }, function () {
+        $(this).find('.sm-menu').first().stop(true, true).slideUp(105)
+    });
+});
+</script>
+</head>
+  <body>
+
+    <nav class="navbar navbar-expand-sm   navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li>
+                <a><img class="logo" src="/assets/logoo.png" alt="" /></a>
+            </li>
+            <li class="nav-item dropdown dmenu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Product
+            </a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item" href="#">Product 1</a>
+              <a class="dropdown-item" href="#">Product 2</a>
+              <a class="dropdown-item" href="#">Product 3</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Community
+            </a>
+          </li>
+          </ul>
+          <div class="social-part">
+            <li>API</li>
+            <li>Help</li>
+            <li>Login</li>
+            <li><button>Sign up</button></li>
+          </div>
+        </div>
+      </nav>
+
+      <section class="section about-section gray-bg" id="about">
+        <div class="container">
+            <div class="row align-items-center justify-content-around flex-row-reverse">
+              <div class="col-lg-4 text-center">
+                <div class="about-img">
+                  <div class="embed-responsive embed-responsive-16by9"> 
+                    <video width="320" height="240" controls>
+                        <source src="https://youtu.be/BadB1z-V_qU?si=AWFD04SiHDPDjhy9" type="video/mp4">
+                    </video>
+                </div> 
+                <p>We made it so beutiful and simple. It combines landings, pages, blogs and shop screens. It is definitely the tool you need in your collection! </p>
+                </div>
+            </div>
+              
+              <div class="col-lg-7">
+                    <div class="about-text">
+                        <h3 class="dark-color">A high-quality solution for those who want a beautiful startup website quickly</h3>
+                        <div class="form_Section">
+                          <div class="input_div">
+                            <input type="text" placeholder="Your email" />
+                            <input type="text" placeholder="Your password" />
+                          </div>
+                          <div class="btn-bar">
+                            <a class="px-btn theme" href="#">Sign In</a>
+                        </div>
+                        <div class="pt-1">
+                          <span>By signing up, you agree to the Terms of Service</span>
+                        
+                        </div>
+                      </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
